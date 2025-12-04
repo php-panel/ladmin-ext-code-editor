@@ -1,32 +1,39 @@
 {
-    "name": "laravel-admin-ext/code-editor",
+    "name": "php-panel/ladmin-ext-code-editor",
     "description": "Code editor extension for laravel-admin based on code-mirror",
     "type": "library",
-    "keywords": ["laravel-admin", "extension", "code mirror", "code", "editor"],
-    "homepage": "https://github.com/laravel-admin-ext/code-editor",
+    "keywords": [
+        "laravel-admin",
+        "extension",
+        "code mirror",
+        "code",
+        "editor"
+    ],
+    "homepage": "https://github.com/php-panel/ladmin-ext-code-editor",
     "license": "MIT",
     "authors": [
         {
-            "name": "song",
-            "email": "zosong@126.com"
+            "name": "leeqvip",
+            "email": "leeqvip@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "encore/laravel-admin": "*"
+        "php": ">=8.2",
+        "laravel/framework": ">=12.0",
+        "php-panel/laravel-admin": ">=3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0"
+        "phpunit/phpunit": "~11.0"
     },
     "autoload": {
         "psr-4": {
-            "Encore\\Admin\\CodeEditor\\": "src/"
+            "Ladmin\\CodeEditor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\Admin\\CodeEditor\\CodeEditorServiceProvider"
+                "Ladmin\\CodeEditor\\CodeEditorServiceProvider"
             ]
         }
     }

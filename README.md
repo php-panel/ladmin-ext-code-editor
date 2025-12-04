@@ -2,19 +2,12 @@ Code editor extension for laravel-admin 2.x based on CodeMirror
 
 Supports `php`、`sql`、`javascript`、`java`、`c`、`cpp`、`csharp`、`objc`、`scala`、`kotlin`、`ceylon`、`python`、`ruby`、`css`、`sass`、`less`、`xml`、`html`、`nginx`、`vuejs`、`lua`、`yaml`、`swift`、`clojure`、`coffeescript`、`protobuf`、`commonlisp`、`dart`、`dockerfile`、`diff`、`rust`、`shell`、`go`、`haml`
 
-基于CodeMirror的代码编辑器，可用于laravel-admin 2.x
-
-支持`php`、`sql`、`javascript`、`java`、`c`、`cpp`、`csharp`、`objc`、`scala`、
-`kotlin`、`ceylon`、`python`、`ruby`、`css`、`sass`、`less`、`xml`、`html`、`nginx`、
-`vuejs`、`lua`、`yaml`、`swift`、`clojure`、`coffeescript`、`protobuf`、`commonlisp`、
-`dart`、`dockerfile`、`diff`、`rust`、`shell`、`go`、`haml`等语言。
-
 ![QQ20200925-120900](https://user-images.githubusercontent.com/1479100/94225656-33241980-ff28-11ea-869a-6afd75d683e6.png)
 
 ## Installation 
 
 ```bash
-composer require laravel-admin-ext/code-editor -vvv
+composer require php-panel/ladmin-ext-code-editor -vvv
 ```
 
 ## Usage 
@@ -39,16 +32,6 @@ Use in show page:
 // show as PHP code and 300 height.
 $show->field('code_column')->code('php', 300);
 ```
-
-## Donate
-
-> Help keeping the project development going, by donating a little. Thanks in advance.
-
-[![PayPal Me](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/zousong)
-
-> 如果你觉得这个项目帮助你节约了时间，不妨支持一下，已激励我创造出更多有用的项目
-
-![-1](https://cloud.githubusercontent.com/assets/1479100/23287423/45c68202-fa78-11e6-8125-3e365101a313.jpg)
 
 License
 ------------

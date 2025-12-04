@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\CodeEditor;
+namespace Ladmin\CodeEditor;
 
-use Encore\Admin\Extension;
+use Ladmin\Extension;
 
 class CodeEditor extends Extension
 {

@@ -2,7 +2,7 @@
 
 namespace Encore\Admin\CodeEditor;
 
-use Encore\Admin\Form\Field\Textarea;
+use Ladmin\Form\Field\Textarea;
 
 class Editor extends Textarea
 {

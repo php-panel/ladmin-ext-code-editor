@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\CodeEditor;
+namespace Ladmin\CodeEditor;
 
-use Encore\Admin\Assets;
-use Encore\Admin\Form;
-use Encore\Admin\Show\Field;
+use Ladmin\Assets;
+use Ladmin\Form;
+use Ladmin\Show\Field;
 use Illuminate\Support\ServiceProvider;
 
 class CodeEditorServiceProvider extends ServiceProvider
